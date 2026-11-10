@@ -1,0 +1,61 @@
+# Tiklas 🇭🇹
+
+Aplikasyon pou ede timoun aprann angle an kreyòl ayisyen.
+
+## Fonksyonalite
+
+- 🗺️ **Map** — aprann non kote yo an angle (lekòl, mache, lopital, elatriye)
+- 📚 Leson senp ak vokabilè pou timoun
+- 🔊 Pwononsyasyon an angle
+- 🧩 Ekzèsis ak kwiz pou pratike
+
+## Teknoloji
+
+- React
+- Node.js (>= 18) ak npm
+
+## Enstalasyon
+
+```bash
+git clone https://github.com/PyramToussaint/tiklas-app.git
+cd tiklas-app
+npm install
+```
+
+## Lanse aplikasyon an
+
+```bash
+npm start
+```
+
+Si w ap itilize Vite: `npm run dev`
+
+## Estrikti pwojè a
+
+```
+tiklas-app/
+├── src/
+│   ├── components/   # Konpozan yo (Map, Leson, Kwiz)
+│   ├── pages/        # Paj prensipal yo
+│   ├── data/         # Mo ak non kote an angle/kreyòl
+│   └── App.jsx
+├── public/
+├── package.json
+└── README.md
+```
+
+## Kontribisyon
+
+1. Fè yon `fork`
+2. Kreye yon branch: `git checkout -b feature/non-fonksyon`
+3. `commit` ak `push`
+4. Louvri yon Pull Request
+
+## Otè
+
+**Pyram Toussaint** — pwojè soumèt sou PIGraN Entènship.
+
+## Lisans
+
+MIT
+
